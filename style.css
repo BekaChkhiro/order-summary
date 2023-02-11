@@ -1,0 +1,183 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* -------------------------------------------------- */
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;700&family=Red+Hat+Display:wght@900&display=swap');
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url(images/pattern-background-desktop.svg)no-repeat;
+    background-size: 100%;
+    background-color: #e0e8ff;
+}
+
+section {
+    width: 450px;
+    border-radius: 20px;
+    background-color: white;
+}
+
+.ilustration img {
+    max-width: 100%;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+
+main {
+    padding: 0px 48px 48px 48px;
+}
+
+.main-content h1 {
+    color: #1F2E55;
+    font-size: 28px;
+    font-weight: 900;
+    line-height: 37.04px;
+    text-align: center;
+    margin-top: 45px;
+    margin-bottom: 17px;
+}
+
+.main-content p {
+    color: #717FA6;
+    font-style: normal;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 26px;
+    text-align: center;
+    padding: 0px 16px 20px 16px;
+}
+
+.music {
+    padding: 25px 24px;
+    background-color: #F7F9FF;
+    border-radius: 11px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.plan {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.plan img {
+    padding-right: 20px;
+}
+
+.price h2 {
+    color: #1F2E55;
+    font-size: 16px;
+    font-weight: 900;
+    line-height: 21.17px;
+}
+
+.price p {
+    color: #717FA6;
+    font-size: 16px;
+    font-weight: 500;
+    font-weight: 21.17px;
+}
+
+.change a {
+    color: #382AE1;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 18.52px;;
+}
+
+.change a:hover {
+    color: #766CF1;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.order {
+    margin-top: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.order button {
+    background-color: #382AE1;
+    width: 100%;
+    padding: 15px 0px 15px 0px;
+    border-radius: 11px;
+    font-size: 15px;
+    font-weight: 900;
+    line-height: 19.85px;
+    color: #FFFFFF;
+    border: none;
+}
+
+.order button:hover {
+    background-color: #766CF1;
+    cursor: pointer;
+}
+
+.order a {
+    margin-top: 32px;
+    text-align: center;
+    text-decoration: none;
+    color: #717FA6;
+    font-size: 15px;
+    font-weight: 900;
+    line-height: 19.85px;
+}
+
+.order a:hover {
+    color: #1F2E55;
+}
+
